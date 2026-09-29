@@ -1,0 +1,18 @@
+* { box-sizing: border-box; font-family: sans-serif; }
+body { margin: 0; background-color: #f1f5f9; color: #0f172a; }
+.navbar { display: flex; justify-content: space-between; align-items: center; background: #0f172a; color: white; padding: 14px 24px; }
+.container { max-width: 950px; margin: 24px auto; padding: 0 16px; }
+.card { background: white; border-radius: 8px; padding: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 20px; }
+.stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 20px; }
+.stat-box { background: white; padding: 15px; border-radius: 8px; text-align: center; border-left: 4px solid #2563eb; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+.stat-box h3 { margin: 0; font-size: 22px; }
+.badge { padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: 600; }
+.badge-Open { background: #fee2e2; color: #dc2626; }
+.badge-InProgress { background: #fef3c7; color: #d97706; }
+.badge-Resolved { background: #dcfce7; color: #16a34a; }
+input, select, textarea, button { width: 100%; padding: 9px; margin: 6px 0; border: 1px solid #cbd5e1; border-radius: 6px; }
+button { background: #2563eb; color: white; border: none; cursor: pointer; font-weight: bold; }
+button:hover { background: #1d4ed8; }
+.btn-delete { background: #ef4444; width: auto; padding: 6px 12px; }
+.ticket-table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+.ticket-table th, .ticket-table td { border-bottom: 1px solid #e2e8f0; padding: 10px; text-align: left; }
